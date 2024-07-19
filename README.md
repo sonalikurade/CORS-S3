@@ -19,16 +19,6 @@ To set up CORS for an S3 bucket, you need to:
 
 * Edit the CORS Configuration: Enter the CORS rules in the XML format. For example:
 
-<CORSConfiguration>
-    <CORSRule>
-        <AllowedOrigin>http://example.com</AllowedOrigin>
-        <AllowedMethod>GET</AllowedMethod>
-        <AllowedMethod>PUT</AllowedMethod>
-        <AllowedHeader>*</AllowedHeader>
-        <MaxAgeSeconds>3000</MaxAgeSeconds>
-    </CORSRule>
-</CORSConfiguration>
-
 
 * AllowedOrigin: Specifies which origins are allowed to access the bucket.
 * AllowedMethod: Specifies which HTTP methods (e.g., GET, PUT) are allowed.
